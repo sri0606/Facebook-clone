@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "username": "john_doe",
+        "postedDate": "Jan 1, 2024",
+        "description": "Beautiful sunset at the beach!",
+        "mediaUrl": "https://picsum.photos/id/1016/400",
+        "likes": "230",
+        "views": "4.5k",
+        "numComments": "2",
+        "shares": "54",
+        "comments": [
+            { "username": "jane_doe", "comment": "Wow, amazing picture!","commentId":"1" },
+            { "username": "bob_smith", "comment": "I wish I was there!","commentId":"2" }
+        ]
+    },
+    {
+        "id": "2",
+        "username": "alice_wonder",
+        "postedDate": "Jan 1, 2024",
+        "description": "Exploring the urban streets.",
+        "mediaUrl": "https://picsum.photos/id/1027/400",
+        "likes": "320",
+        "views": "5.2k",
+        "numComments": "3",
+        "shares": "45",
+        "comments": [
+            { "username": "carol_kent", "comment": "Love this view!","commentId":"1" },
+            { "username": "dave_moore", "comment": "Really cool!","commentId":"2" },
+            { "username": "bob_smith", "comment": "I wish I was there!","commentId":"3" }
+        ]
+    },
+    {
+        "id": "3",
+        "username": "mark_evans",
+        "postedDate": "April 24, 2028",
+        "description": "Early morning hike in the mountains.",
+        "mediaUrl": "https://picsum.photos/id/1038/400",
+        "likes": "280",
+        "views": "3.9k",
+        "numComments": "4",
+        "shares": "67",
+        "comments": [
+            { "username": "susan_parker", "comment": "So peaceful!","commentId":"1" },
+            { "username": "tom_baker", "comment": "Wish I could join!","commentId":"2" },
+            { "username": "susan_parker", "comment": "So peaceful!" ,"commentId":"3"},
+            { "username": "tom_baker", "comment": "Wish I could join!" ,"commentId":"4"}
+        ]
+    },
+    {
+        "id": "4",
+        "username": "linda_smith",
+        "postedDate": "Dec 1, 2011",
+        "description": "Gorgeous sunset from my balcony.",
+        "mediaUrl": "https://picsum.photos/id/1049/400",
+        "likes": "400",
+        "views": "6.1k",
+        "numComments": "5",
+        "shares": "75",
+        "comments": [
+            { "username": "peter_griffin", "comment": "Stunning colors!","commentId":"1" },
+            { "username": "louis_lane", "comment": "What a view!" ,"commentId":"2"},
+            { "username": "susan_parker", "comment": "So peaceful!" ,"commentId":"3"},
+            { "username": "tom_baker", "comment": "Wish I could join!" ,"commentId":"4"},
+            { "username": "susan_parker", "comment": "So peaceful!" ,"commentId":"5"}
+        ]
+    }
+]
+

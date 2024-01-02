@@ -1,31 +1,29 @@
-import { StyleSheet } from 'react-native';
-
-import EditScreenInfo from '../../components/EditScreenInfo';
+import { Platform,StyleSheet,TouchableOpacity} from 'react-native';
+import { Stack } from 'expo-router';
+import { Ionicons,FontAwesome5 } from '@expo/vector-icons';
+import Colors from '../../constants/Colors';
 import { Text, View } from '../../components/Themed';
+import HomeHeader from '../../components/HomeHeader';
+import { Link } from 'expo-router';
+import Posts from '../../components/Posts';
 
-export default function HomeScreen() {
+const HomeScreen = () =>{
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
+      <HomeHeader />
+      <Posts />
     </View>
+    
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop:  Platform.OS === 'android' ? 40 : 0,
+    backgroundColor:Colors.dark,
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
+
 });
+
+export default HomeScreen;
